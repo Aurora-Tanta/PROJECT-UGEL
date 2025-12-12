@@ -1,0 +1,11 @@
+body{margin:0;font-family:Arial;background:#f4f4f4;}
+.navbar{background:#fff;padding:15px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 5px rgba(0,0,0,.1);}
+.menu{list-style:none;display:flex;margin:0;padding:0;}
+.menu li{margin:0 15px;position:relative;}
+.menu a{text-decoration:none;color:#333;font-weight:bold;}
+.dropdown-content{display:none;position:absolute;top:30px;background:#1e73be;padding:10px;border-radius:6px;}
+.dropdown-content a{color:#fff;}
+.dropdown:hover .dropdown-content{display:block;}
+.login-card{width:300px;margin:80px auto;background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,.2);}
+.login-card input{width:100%;padding:10px;margin:10px 0;border:1px solid #ccc;border-radius:5px;}
+.login-card button{width:100%;padding:10px;background:#007bff;color:#fff;border:none;border-radius:5px;font-size:16px;}
